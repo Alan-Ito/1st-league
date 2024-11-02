@@ -1,0 +1,33 @@
+{
+  "resources/scripts/main.ts": {
+    "file": "assets/main-B4QJOgnP.js",
+    "name": "main",
+    "src": "resources/scripts/main.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/views/pages/error.svelte",
+      "resources/views/pages/welcome.svelte"
+    ],
+    "css": [
+      "assets/main-D83BmP6o.css"
+    ]
+  },
+  "resources/views/pages/error.svelte": {
+    "file": "assets/error-DSsfh_Ce.js",
+    "name": "error",
+    "src": "resources/views/pages/error.svelte",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/scripts/main.ts"
+    ]
+  },
+  "resources/views/pages/welcome.svelte": {
+    "file": "assets/welcome-CmYq6jpU.js",
+    "name": "welcome",
+    "src": "resources/views/pages/welcome.svelte",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/scripts/main.ts"
+    ]
+  }
+}
